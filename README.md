@@ -20,6 +20,30 @@ To set up this API, follow these steps:
 2. Navigate into the project directory
 3. Install the required dependencies
 
+## Running the API
+
+To run the API, execute the following commands in the project directory:
+
+Firstly you need to install all necessary dependancies
+
+```bash
+npm install express
+```
+
+Secondly you need to install nodemon
+
+```bash
+npm install -g nodemon
+```
+
+Thirdly to run the API use this command:
+
+```bash
+npm run dev
+```
+
+The server will start and listen on `http://127.0.0.2:3000`.
+
 ## API Endpoints
 
 ### GET /data
@@ -64,26 +88,4 @@ Deletes a data item by its ID.
 
 The API provides basic error handling. If an error occurs during file reading or writing, a `500 Internal Server Error` response will be returned with a message.
 
-## Running the API
 
-To run the API, execute the following commands in the project directory:
-
-Firstly you need to install all necessary dependancies
-
-```bash
-npm install express
-```
-
-Secondly you need to install nodemon
-
-```bash
-npm install -g nodemon
-```
-
-Thirdly to run the API use this command:
-
-```bash
-npm run dev
-```
-
-The server will start and listen on `http://127.0.0.2:3000`.
