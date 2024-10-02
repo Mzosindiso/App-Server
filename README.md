@@ -68,13 +68,19 @@ The API provides basic error handling. If an error occurs during file reading or
 
 To run the API, execute the following commands in the project directory:
 
-Firstly you need to install nodemon
+Firstly you need to install all necessary dependancies
+
+```bash
+npm install express
+```
+
+Secondly you need to install nodemon
 
 ```bash
 npm install -g nodemon
 ```
 
-Secondly to run the API use this command:
+Thirdly to run the API use this command:
 
 ```bash
 npm run dev
